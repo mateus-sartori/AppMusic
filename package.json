@@ -6,6 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "start-scrap": "cd api && venv/bin/flask run",
     "test": "jest",
     "lint": "eslint ."
   },
@@ -16,6 +17,7 @@
     "@react-navigation/bottom-tabs": "latest",
     "@react-navigation/native": "latest",
     "@react-navigation/stack": "latest",
+    "axios": "^0.21.0",
     "prop-types": "latest",
     "react": "16.13.1",
     "react-native": "^0.63.4",

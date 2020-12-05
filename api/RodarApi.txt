@@ -1,0 +1,6 @@
+Entrar na pasta do projeto e na pasta e rodar os comandos:
+
+cd api
+pip3 install --upgrade -r requirements.txt
+npm run start-scrap
+

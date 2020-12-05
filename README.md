@@ -5,20 +5,6 @@
 
 ## Tabela de Conteúdo
 
-- [Tabela de Conteúdo](#tabela-de-conte%C3%BAdo)
-- [Sobre o Projeto](#sobre-o-projeto)
-  - [Bibliotecas Incluidas](#bibliotecas-incluidas)
-- [Começando](#come%C3%A7ando)
-  - [Pré-requisitos](#pr%C3%A9-requisitos)
-  - [Estrutura de Arquivos](#estrutura-de-arquivos)
-  - [Instalação](#instala%C3%A7%C3%A3o)
-    - [Passo Adicional no Android](#passo-adicional-no-android)
-  - [Edição](#edi%C3%A7%C3%A3o)
-  - [Publicação](#publica%C3%A7%C3%A3o)
-- [Contribuição](#contribui%C3%A7%C3%A3o)
-- [Licença](#licen%C3%A7a)
-- [Contato](#contato)
-
 <!-- ABOUT THE PROJECT -->
 
 ## Sobre o Projeto
@@ -26,44 +12,10 @@
 Este template tem por objetivo a criação de bases utilizando o React Native para facilitar o processo de desenvolvimento
 de criação de Apps ou afins ao gerar uma base inicial, possuindo algumas bibliotecas incluidas.
 
-### Bibliotecas Incluidas
+### Bibliotecas Adicionais
 
 Lista de bibliotecas incluídas neste template:
 
-- [React Native](http://facebook.github.io/react-native/) - React Native é uma biblioteca Javascript criada pelo Facebook. Usado para criar aplicaçõs mobile Android e iOS de forma nativa.
-- [React Navigation](https://reactnavigation.org/) - O React Navigation é composto de alguns utilitários principais e esses são usados ​​pelos navegadores para criar a estrutura de navegação em seu aplicativo.
-- [React Native Gesture Handler](https://kmagiera.github.io/react-native-gesture-handler/) - O React Native Gesture Handler fornece APIs de gerenciamento de gestos nativas para criar as melhores experiências possíveis com base no toque no React Native.
-- [React Native Async Storage](https://github.com/react-native-async-storage/async-storage/) - AsyncStorage é um sistema de armazenamento de valor-chave não criptografado, assíncrono, persistente e global para o aplicativo. Deve ser usado em vez de LocalStorage.
-- [React Native GeoLocation](https://github.com/react-native-geolocation/react-native-geolocation/) - É uma API de geolocalização estende as especificações da web de geolocalização, é necessário usar o pacote de permissões para autorização da coleta da localização.
-- [React Native Permissions](https://github.com/zoontek/react-native-permissions/) - Uma API de permissões unificada para React Native no iOS, Android e Windows.
-- [React Native Masked View](https://www.npmjs.com/package/@react-native-community/masked-view/) - fornece uma visualização mascarada que exibe apenas os pixels que se sobrepõem à visualização renderizada em seu elemento de máscara.
-- [React Native Reanimated](https://www.npmjs.com/package/react-native-reanimated/) - React Native Reanimated fornece uma abstração de baixo nível mais abrangente para a API da biblioteca Animated ser construída e, portanto, permite uma flexibilidade muito maior, especialmente quando se trata de interações baseadas em gestos.
-- [React Native Screens](https://github.com/software-mansion/react-native-screens/) - Este projeto tem como objetivo expor componentes de contêiner de navegação nativa para React Native.
-- [React Native Safe Area Context](https://github.com/th3rdwave/react-native-safe-area-context/) - Uma forma flexível de lidar com área segura, também funciona no Android e na Web!
-- [React Native Swiper](https://github.com/leecade/react-native-swiper) - Permite que você crie componentes que habilite função de deslizar(arrastar para o lado).
-
-
-- [Axios](https://github.com/axios/axios) - Cliente HTTP baseado em promessa para o Navegador e Node.js
-- [Prop Types](https://github.com/facebook/prop-types) - Verificação de tipo em tempo de execução para propriedades (props) React e objetos semelhantes;
-- [Reactotron](https://github.com/infinitered/reactotron) - O Reactotron é um app Desktop para inspecionar projetos em React ou React Native. Está disponível para macOS, Linux e Windows;
-  - [reactotron-react-native](https://github.com/infinitered/reactotron/blob/master/docs/quick-start-react-native.md) - Plugin para configurar o Reactotron para se conectar ao projeto React Native;
-- [Babel](https://babeljs.io/) - O Babel é um compilador JavaScript gratuito e de código aberto e transpiler configurável usado no desenvolvimento de aplicações JavaScript;
-  - [babel-eslint](https://github.com/babel/babel-eslint) - Este pacote é um _wrapper_ do parser do Babel para o ESLint;
-  - [babel-plugin-root-import](https://github.com/entwicklerstube/babel-plugin-root-import) - Esse plugin do Babel permite que sejam feitos imports e requires em caminhos baseados em uma raiz(root);
-  - [babel-plugin-transform-remove-console](https://github.com/babel/minify/tree/master/packages/babel-plugin-transform-remove-console) - Esse plugin do Babel remove todos os console.\* da sua aplicação ([Dica no site oficial do RN](https://facebook.github.io/react-native/docs/performance#using-consolelog-statements));
-- [ESLint](https://eslint.org/) - O ESLint é uma ferramenta de lint plugável para JavaScript e JSX;
-  - [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) - Este pacote fornece o .eslintrc do Airbnb como uma configuração compartilhada extensível;
-  - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import) - Plugin do ESLint com regras para ajudar na validação de imports;
-  - [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y) - Verificador estático AST das regras do a11y em elementos JSX;
-  - [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) - Regras de linting do ESLint específicas do React;
-  - [eslint-plugin-react-native](https://github.com/Intellicode/eslint-plugin-react-native) - Regras de linting do ESLint específicas do React Native;
-  - [eslint-import-resolver-babel-plugin-root-import](https://github.com/olalonde/eslint-import-resolver-babel-root-import) - Um resolver da lib _babel-root-import_ para a lib _eslint-plugin-import_;
-- [Prettier](https://prettier.io/) - O Prettier atualiza seu código automaticamente seguindo os padrões que você quiser toda vez salva o arquivo;
-  - [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier) - Roda o Prettier como uma regra do ESLint;
-  - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) - Desativa todas as regras que são desnecessárias ou que podem dar conflito com o Prettier;
-- [EditorConfig](https://editorconfig.org/) - O EditorConfig é um formatador de arquivos e coleções em forma de Plugin para Editores de código/texto com o objetivo de manter um padrão de código consistente entre diferentes editores, IDE's ou ambientes;
-
-- [StyledComponents](https://github.com/styled-components/styled-components) - styled-components é o resultado de questionarmos como poderíamos aprimorar CSS para estilizar sistemas de componentes React.
 
 <!-- GETTING STARTED -->
 
@@ -152,9 +104,24 @@ Verifique na pasta android o arquivo `local.properties` e indique o caminho da p
 
 Exemplo: `sdk.dir = /home/username/Android/Sdk`
 
+Se por acaso acontecer erro com:
+
+What went wrong: Could not initialize class org.codehaus.groovy.runtime.InvokerHelper Vá até a pasta 
+
+```sh
+android/gradle/wrapper/gradle-wrapper.properties e na linha `distributionUrl=https\://services.gradle.org/distributions/gradle-6.3-all.zip`
+```
+
+substituia por
+
+```sh
+distributionUrl=https\://services.gradle.org/distributions/gradle-6.4.1-all.zip
+```
+
 Para que os gestos sejam habilitados no Android é necessário um passo a mais, que é bem simples, abra o arquivo `android/app/src/main/java/<pacote_do_projeto>/MainActivity.java`, e comece importando os pacotes como abaixo:
 
 `***Opcional caso não tenha*** package com.nameproject;`
+
 ```java
 import com.facebook.react.ReactActivity;
 // Importações adicionadas
@@ -256,21 +223,6 @@ npm login
 4. Após configurar corretamente o `package.json` basta executar no terminal/prompt o comando `npm publish`;
 
 5. Com a publicação finalizada o template deve ficar disponível através do link `https://www.npmjs.com/package/react-native-template-<nome_do_template>`.
-
-<!-- CONTRIBUTING -->
-
-<!-- ## Contribuição
-
-Contribuições são o que fazem a comunidade open source um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer será **muito apreciada**.
-
-1. Faça um Fork do projeto
-2. Crie uma Branch para sua Feature (`git checkout -b feature/FeatureIncrivel`)
-3. Adicione suas mudanças (`git add .`)
-4. Comite suas mudanças (`git commit -m 'Adicionando uma Feature incrível!`)
-5. Faça o Push da Branch (`git push origin feature/FeatureIncrivel`)
-6. Abra um Pull Request -->
-
-<!-- LICENSE -->
 
 ## Licença
 
