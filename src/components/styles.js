@@ -1,26 +1,40 @@
 import React from 'react';
 import styled from 'styled-components/native';
 
-export const Container = styled.SafeAreaView`
-  background-color: black;
-  flex: 1;
-  justify-content: center;
+export const Logo = styled.Image`
+  top: 10px;
+  width: 148px;
+  height: 46px;
+`;
+
+export const LoadingIcon = styled.ActivityIndicator`
+  margin-top: 50px;
+`;
+
+export const Section = styled.SafeAreaView`
+  padding: 10px;
   align-items: center;
-  width: 100%;
 `;
 
-export const HeaderArea = styled.View`
-  margin-top: 80px;
-  align-items: center;
+export const InputArea = styled.View`
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
 `;
 
-export const HeaderText = styled.Text`
-  font-size: 18px;
-  color: #fff;
+export const TopArea = styled.View`
+    margin-top: 18px;
+    width: 100%;
 `;
 
-export const BackgroundImage = styled.Image`
-  width: 100%;
-  height: 100%;
-  position: absolute;
+export const MiddleArea = styled.View`
+    margin-top: 18px;
+    width: 100%;
+    flex-direction: row;
+`;
+
+export const BottomArea = styled.View`
+    margin-top: 18px;
+    width: 100%;
+    flex-direction: row;
 `;

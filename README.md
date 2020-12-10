@@ -15,6 +15,7 @@ de criação de Apps ou afins ao gerar uma base inicial, possuindo algumas bibli
 ### Bibliotecas Adicionais
 
 Lista de bibliotecas incluídas neste template:
+ - [Bibliotecas Incluidas](https://github.com/iSenaka/BaseMobile) - As bibliotecas incluidas vem da BaseMobile
 
 
 <!-- GETTING STARTED -->

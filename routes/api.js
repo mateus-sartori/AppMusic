@@ -1,9 +1,13 @@
 import axios from 'axios';
 
+import { SCRAP_URL } from '@env';
+
 export default {
-  teste: async () => {
-    axios.get('http://10.0.2.2:5000/api')
-      .then(response => response.data
-      ).then(data => console.log(data));
-  }
+  getMusic: async () => {
+    const req = await axios.get(`${SCRAP_URL}/api`).then(({data}) => {
+      console.log(data)
+      return data
+    });
+    return req;
+  },
 }

@@ -22,12 +22,15 @@
     "react": "16.13.1",
     "react-native": "^0.63.4",
     "react-native-axios": "latest",
+    "react-native-dotenv": "^2.4.3",
     "react-native-gesture-handler": "latest",
     "react-native-permissions": "latest",
     "react-native-reanimated": "latest",
     "react-native-safe-area-context": "latest",
     "react-native-screens": "latest",
-    "react-native-swiper": "latest",
+    "react-native-svg": "^12.1.0",
+    "react-native-svg-transformer": "^0.14.3",
+    "react-native-swiper": "^1.6.0",
     "styled-components": "latest"
   },
   "devDependencies": {
