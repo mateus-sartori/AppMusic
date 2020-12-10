@@ -15,6 +15,7 @@
     "@react-native-community/geolocation": "latest",
     "@react-native-community/masked-view": "latest",
     "@react-navigation/bottom-tabs": "latest",
+    "@react-navigation/material-bottom-tabs": "^5.3.10",
     "@react-navigation/native": "latest",
     "@react-navigation/stack": "latest",
     "axios": "^0.21.0",
@@ -24,6 +25,7 @@
     "react-native-axios": "latest",
     "react-native-dotenv": "^2.4.3",
     "react-native-gesture-handler": "latest",
+    "react-native-paper": "^4.4.1",
     "react-native-permissions": "latest",
     "react-native-reanimated": "latest",
     "react-native-safe-area-context": "latest",
@@ -31,6 +33,7 @@
     "react-native-svg": "^12.1.0",
     "react-native-svg-transformer": "^0.14.3",
     "react-native-swiper": "^1.6.0",
+    "react-native-vector-icons": "^7.1.0",
     "styled-components": "latest"
   },
   "devDependencies": {
